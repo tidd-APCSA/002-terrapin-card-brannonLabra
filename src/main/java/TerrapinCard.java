@@ -5,7 +5,7 @@ public class TerrapinCard {
     this.balance = balance;
   }
 
-  public String getBalance(){
+  public toString getBalance(){
     return "The card has " + this.balance + " dollars";
   }
 
