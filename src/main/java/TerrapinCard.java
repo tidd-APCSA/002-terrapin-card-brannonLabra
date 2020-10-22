@@ -30,9 +30,12 @@ public class TerrapinCard {
   
   }
   
+  public double getBalance(){
+    return balance;
+  }
   
 
-  
+
   
   public String toString(){
     return "The card has " + this.balance + " dollars";
