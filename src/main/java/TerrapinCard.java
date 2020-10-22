@@ -5,9 +5,7 @@ public class TerrapinCard {
     this.balance = balance;
   }
 
-  public toString getBalance(){
-    return "The card has " + this.balance + " dollars";
-  }
+  
 
   public void payEconomical(){
     if (this.balance >= 2.50){
@@ -30,5 +28,13 @@ public class TerrapinCard {
      this.balance = 150.0;
    }
   
+  }
+  
+  
+
+  
+  
+  public String toString(){
+    return "The card has " + this.balance + " dollars";
   }
 }
